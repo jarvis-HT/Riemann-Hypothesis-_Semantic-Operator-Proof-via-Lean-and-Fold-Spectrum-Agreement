@@ -1,0 +1,3 @@
+import ZetaSpectrumAgreementSlot
+
+#eval ZetaSpectrumAgreementSlot.exampleAgreement.message
