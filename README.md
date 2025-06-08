@@ -1,5 +1,5 @@
 # Riemann Hypothesis – Semantic Operator Proof via Lean and Fold-Spectrum Agreement
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15618909.svg)](https://doi.org/10.5281/zenodo.15618909)
 This project encodes the Riemann Hypothesis (RH) in Lean 4 using a fold-structured semantic framework based on the Hilbert–Pólya conjecture.
 
 ---
@@ -56,8 +56,7 @@ Spectrum agrees with zeta zeros — RH supported
 
 ## 📄 Paper
 
-See [`paper/RiemannHypothesis_LeanSemantic_FoldSpectrum_Zenodo.docx`](./paper)  
-Or [`Zenodo.pdf`](./paper)
+See [`RiemannHypothesis_LeanSemantic_FoldSpectrum.pdf`](./paper/RiemannHypothesis_LeanSemantic_FoldSpectrum.pdf)  
 
 ---
 
