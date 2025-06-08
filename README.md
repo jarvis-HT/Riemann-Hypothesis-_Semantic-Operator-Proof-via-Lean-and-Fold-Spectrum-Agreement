@@ -13,6 +13,25 @@ This project encodes the Riemann Hypothesis (RH) in Lean 4 using a fold-structur
 
 ---
 
+## 🔗 Related Projects – Fold Duality
+
+This repository represents the intersection of two complementary Lean-based fold research lines:
+
+- [`fold-structural-series`](https://github.com/jarvis-HT/fold-structural-series)  
+  → Encodes **structural fold** logic (slot composition, operator slot chaining)
+
+- [`fold-formal-series`](https://github.com/jarvis-HT/fold-formal-series)  
+  → Encodes **formal fold** logic (type-correct proofs, formal slot chaining)
+
+### 📌 This project semantically bridges the two:
+> A **fold-structured semantic operator proof** of RH,  
+> grounded in formal type theory and structural slot agreement.
+
+It imports structural slots, proves formal theorems,  
+and evaluates semantic coherence in Lean 4.
+
+---
+
 ## 📂 Directory Structure
 
 - `src/`
