@@ -61,8 +61,6 @@ See [`RiemannHypothesis_LeanSemantic_FoldSpectrum.pdf`](./paper/RiemannHypothesi
 
 ---
 
-## 🔁 Build Instructions
-
 ## 🔁 Build & Run Instructions
 
 To build and evaluate the Lean proof environment locally:
