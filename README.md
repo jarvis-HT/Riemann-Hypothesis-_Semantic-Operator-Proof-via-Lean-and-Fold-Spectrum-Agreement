@@ -63,13 +63,54 @@ See [`RiemannHypothesis_LeanSemantic_FoldSpectrum.pdf`](./paper/RiemannHypothesi
 
 ## 🔁 Build Instructions
 
+## 🔁 Build & Run Instructions
+
+To build and evaluate the Lean proof environment locally:
+
+### 1. 🛠 Prerequisites
+
+- [Install Lean 4](https://leanprover-community.github.io/get_started.html) (recommended via `elan`)
+- Make sure `lean --version` returns something like `Lean (version 4.2.0)`
+- Clone this repository:
+  ```bash
+  git clone https://github.com/jarvis-HT/fold-rh-lean.git
+  cd fold-rh-lean
+  ```
+
+### 2. 📦 Install Dependencies
+
 ```bash
 lake update
+```
+
+This will fetch all required packages (mathlib, proofwidgets, etc.)
+
+### 3. 🔧 Build the Project
+
+```bash
 lake build
 ```
 
-- Lean version: `4.2.0`
-- Tooling: `elan`, `lake` (auto-detected via `lean-toolchain`)
+### 4. 🧪 Run the Evaluation
+
+You can run the semantic evaluation by opening `test.lean` in VS Code  
+(with the Lean extension installed) and evaluating:
+
+```lean
+#eval ZetaSpectrumAgreementSlot.exampleAgreement.message
+```
+
+Expected Output:
+
+```
+"Semantic agreement confirmed — RH support passed."
+```
+
+---
+
+**Note:** This project is structured for Lean 4.2.0+.  
+Make sure you're in the right toolchain (check `lean-toolchain` file).
+
 
 ---
 
